@@ -22,6 +22,7 @@
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
       <version>5.0.0</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency> <!-- JSON background layer -->
@@ -38,6 +39,18 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
       <version>2.19.1</version>
+    </dependency>
+
+    <dependency> <!-- DOTENV - .env reader -->
+      <groupId>io.github.cdimascio</groupId>
+      <artifactId>dotenv-java</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.7.7</version>
     </dependency>
 
   </dependencies>
